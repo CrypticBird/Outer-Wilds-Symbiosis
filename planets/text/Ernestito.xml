@@ -1,0 +1,136 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/ship-log/NewHorizons/dialogue_schema.xsd">
+	<NameField>Ernestito</NameField>
+
+	<DialogueNode>
+		<Name>Start</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hi.</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Who are you?</Text>
+				<DialogueTarget>E1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Hello.</Text>
+				<DialogueTarget>F</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>F</Name>
+		<Dialogue>
+			<Page>Okay, enough with the small talk, bud. Let's get down to brass tacks. Do you subscribe to Hayek economic theory, or Keynesian economic theory?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Hayek, of course.</Text>
+				<DialogueTarget>Fa</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Kaynes, no doubt.</Text>
+				<DialogueTarget>Fb</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Goodbye.</Text>
+				<DialogueTarget>Fc</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Fa</Name>
+		<Dialogue>
+			<Page>So you really think we should let the working class suffer over the span of decades while the market sluggishly "corrects" itself? That's rich!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Fb</Name>
+		<Dialogue>
+			<Page>For sure, I agree. Glad to hear we're on the same page, especially in the coming economic turmoil of the end of the universe.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Fc</Name>
+		<Dialogue>
+			<Page>Coward.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>E1</Name>
+		<Dialogue>
+			<Page>I am Ernestito. That means "Little Ernesto" in French.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Hey, I actually know some French!</Text>
+				<DialogueTarget>E2a</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>That's not French.</Text>
+				<DialogueTarget>E2b</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>E2a</Name>
+		<Dialogue>
+			<Page>Oh yeah? Prove it!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Je sais Français, en fait. Cela devrait être une preuve suffisante.</Text>
+				<DialogueTarget>qqq</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Dang, you're right. I can't speak French...</Text>
+				<DialogueTarget>E3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>E2b</Name>
+		<Dialogue>
+			<Page>Yes it is, you pedantic booger.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Yeah, you're right.</Text>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Oh, my bad.</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>E3</Name>
+		<Dialogue>
+			<Page>Figured as much.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Geez, why are you so mean?</Text>
+				<DialogueTarget>E4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I'm leaving now.</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>E4</Name>
+		<Dialogue>
+			<Page>Napoleon complex.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

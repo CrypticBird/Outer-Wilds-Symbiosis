@@ -1,0 +1,13 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/ship-log/NewHorizons/dialogue_schema.xsd">
+	<NameField>SIGN</NameField>
+
+	<DialogueNode>
+		<Name>Start</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>I met Geswaldo on a wintry night — the kind that makes one question bitterly the supposed virtues of warmth or love amid snow and wind.</Page>
+			<Page>He approached me at the bar and introduced himself over a glass of saltwater on the rocks. For me, then, he ordered a glass of centipedes.</Page>
+			<Page>By the end of the night, I was shocked at his touch. By the end of the month, I was his groom-to-be. I love him.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

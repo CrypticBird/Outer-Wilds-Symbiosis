@@ -1,0 +1,13 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/ship-log/NewHorizons/dialogue_schema.xsd">
+	<NameField>SIGN</NameField>
+
+	<DialogueNode>
+		<Name>Start</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>I was born a long time ago to a single mother. </Page>
+			<Page>My father had not eloped with some mistress or left for cigarettes and dairy products — no, he was gorily enveloped in my mother's tissues, resulting in my conception (more on this later).</Page>
+			<Page>With her, I lived an idyllic childhood until she perished on a desert getaway.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

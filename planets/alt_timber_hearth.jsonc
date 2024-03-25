@@ -1,0 +1,326 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/dev/NewHorizons/Schemas/body_schema.json",
+	"name": "ALT TH",
+	"starSystem": "Jam3",
+	"removeChildren": [
+		"Sector/Sector_TH/Proxy_TH",
+		"Sector/Sector_TH/Sector_Village/Interactables_Village/LaunchTower/Spawn_TH",
+		"Sector/Sector_TH/Sector_Village/Volumes_Village/MusicVolume_Village",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/AmbientLight_Observatory",
+		"Sector/Sector_TH/Sector_NomaiCrater/Geometry_NomaiCrater/OtherComponentsGroup/Structure_NOM_WarpReceiver_TimberHearth_Lamp",
+		"Sector/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater",
+		"Sector/Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_SandpileStatic", //debris
+		"Sector/Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_SandpileStatic (1)",
+		"Sector/Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_SandpileStatic (2)",
+		"Sector/Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_SandpileStatic (4)",
+		"Sector/Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_NOM_Tablet (2)", //crater mural
+		"Sector/Sector_TH/Sector_NomaiCrater/Geometry_NomaiCrater/OtherComponentsGroup/ControlledByProxy_Structures/Structure_TH_NomaiBridge_Broken", //crater giant bridge
+		"Sector/Sector_TH/Sector_NomaiCrater/Geometry_NomaiCrater/BatchedGroup/BatchedMeshColliders_7", //bridge colliders
+		"Sector/Sector_TH/Sector_NomaiCrater/Geometry_NomaiCrater/BatchedGroup/BatchedMeshColliders_8", //Deletes path and arch collision; but also the bridge support; fix later if time
+		"Sector/Sector_TH/Sector_NomaiMines/Geometry_NomaiMines/BatchedGroup/BatchedMeshRenderers_7", //mines sandstone
+		"Sector/Sector_TH/Sector_NomaiMines/Geometry_NomaiMines/BatchedGroup/BatchedMeshRenderers_3", //NEW GUY, TEST TOMORROW?
+		"Sector/Sector_TH/Sector_NomaiMines/Geometry_NomaiMines/BatchedGroup/BatchedMeshColliders_0", //sandstone collider AND ROCK!!!
+		"Sector/Sector_TH/Sector_NomaiMines/Geometry_NomaiMines/BatchedGroup/BatchedMeshRenderers_8", //mines copper
+		"Sector/Sector_TH/Sector_NomaiMines/Geometry_NomaiMines/BatchedGroup/BatchedMeshColliders_1", //copper collision AND MORE ROCK!!!
+		"Sector/Sector_TH/Sector_NomaiMines/Geometry_NomaiMines/BatchedGroup/BatchedMeshRenderers_9", //tractorbeam glow
+		"Sector/Sector_TH/Sector_NomaiMines/Geometry_NomaiMines/BatchedGroup/BatchedMeshRenderers_10", //tractor part
+		"Sector/Sector_TH/Sector_NomaiMines/Geometry_NomaiMines/BatchedGroup/BatchedMeshRenderers_11",
+		"Sector/Sector_TH/Sector_NomaiMines/Geometry_NomaiMines/BatchedGroup/BatchedMeshRenderers_12",
+		"Sector/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/DrillPlatform",
+		"Sector/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/TractorBeam_Mining (1)",
+		"Sector/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Prefab_NOM_SharedStone",
+		"Sector/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Props_NOM_Whiteboard",
+		"Sector/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Prefab_NOM_Whiteboard_Shared",
+		"Sector/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Prefab_NOM_RemoteViewer",
+		"Sector/Sector_TH/Sector_NomaiMines/Lighting_NomaiMines",
+		"Sector/Sector_TH/Sector_NomaiMines/Geometry_NomaiMines/BatchedGroup/BatchedMeshRenderers_0",
+		"Sector/Sector_TH/Sector_NomaiMines/Geometry_NomaiMines/BatchedGroup/BatchedMeshRenderers_1",
+		"Sector/Sector_TH/Sector_NomaiMines/Geometry_NomaiMines/BatchedGroup/BatchedMeshRenderers_1",
+		"Sector/Sector_TH/Sector_NomaiMines/Geometry_NomaiMines/BatchedGroup/BatchedMeshRenderers_2",
+		"Sector/Sector_TH/Sector_NomaiMines/Geometry_NomaiMines/BatchedGroup/BatchedMeshRenderers_4",
+		"Sector/Sector_TH/Sector_WaterWays/Props_WaterWays/OtherComponentsGroup/Prefab_NOM_Tablet",
+		"Sector/Sector_TH/Sector_WaterWays/Lighting_WaterWays/Prefab_NOM_Lamp_Wall",
+		"Sector/Sector_TH/Sector_WaterWays/Lighting_WaterWays/Prefab_NOM_Lamp_Wall (1)",
+		"Sector/Sector_TH/Sector_WaterWays/Interactables_WaterWays/Arc_TH_Mine_FindingHearthianLife",
+		"Sector/Sector_TH/Sector_NomaiCrater/DetailPatches_NomaiCrater/NomaiCrater Foliage/Props_GhostMatter",
+		"Sector/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumSaplings/Quantum_PoemTree",
+		"Sector/Sector_TH/Sector_ImpactCrater/Interactables_ImpactCrater",
+		"Sector/Sector_TH/Sector_ImpactCrater/Geo_ImpactCrater/OtherComponentsGroup/ImpactCrater_IceShards",
+		"Sector/Sector_TH/Sector_ImpactCrater/DetailPatches_ImpactCrater/ImpactCrater_Clutter",
+		"Sector/Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp", //hearthians
+		"Sector/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage",
+		"Sector/Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Characters_Observatory",
+		"Sector/Sector_TH/Sector_Village/Sector_UpperVillage/DetailPatches_UpperVillage/TutorialArea/DetailPatch_GhostMatter",
+		"Sector/Sector_TH/Sector_Village/Sector_UpperVillage/Effects_UpperVillage/Effects_GM_AuroraWisps",
+		"Sector/Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
+		"Sector/Sector_TH/Sector_Village/Interactables_Village/ModelRocket_Station",
+		"Sector/Sector_TH/Sector_NomaiMines/Sector_NomaiMinesInterior/Props_NomaiMines",
+		"Sector/Sector_TH/Sector_NomaiMines/Effects_NomaiMines/DarkZoneFog/DarkZoneExitFog",
+		"Sector/Sector_TH/Sector_ZeroGCave/Characters_ZeroGCave",
+		"Sector/Sector_TH/Sector_ZeroGCave/Volumes_ZeroGCave/TrainingZoneTrigger",
+		"Sector/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Geyser_NomaiMines_01",
+		"Sector/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Geyser_NomaiMines_02",
+		"Sector/Sector_TH/Sector_NomaiCrater/Geometry_NomaiCrater/OtherComponentsGroup/ControlledByProxy_Structures/Structure_NOM_Arch_B",
+		"Sector/Sector_TH/Sector_NomaiCrater/Geometry_NomaiCrater/OtherComponentsGroup/ControlledByProxy_Structures/Structure_NOM_Arch_A",
+		"Sector/Sector_TH/Sector_NomaiCrater/Geometry_NomaiCrater/OtherComponentsGroup/ControlledByProxy_Structures/Structure_NOM_Arch_B (1)",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/NomaiStatueExhibit",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/GravityBallExhibit",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/MapSatelliteExhibit",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/AnglerFishExhibit/InteractVolume",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Geometry_Observatory/Structure_HEA_Observatory_v3/ObservatoryPivot/Observatory_Interior/Interior_Exhibits/Exhibits_Pictures/Props_HEA_Picture_04",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Geometry_Observatory/Structure_HEA_Observatory_v3/ObservatoryPivot/Observatory_Interior/Interior_Exhibits/Exhibits_Pictures/Props_HEA_Picture_05",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/GravityFieldExhibit",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/Props_HEA_MuseumPlaque",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/SignalDetectionTrigger_Quantum",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/InteractVolume",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/NomaiEyeExhibit",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/EntrywayExhibit/Prefab_HEA_Journal",
+		"Sector/Sector_TH/Sector_Village/Interactables_Village/TutorialCamera_Base",
+		"Sector/Sector_TH/Sector_Village/Interactables_Village/Interactables_ScoutTutorial",
+		"Sector/Sector_TH/Sector_Village/Interactables_Village/SatelliteProjectorExhibit"
+	],
+	"Base": {
+		"surfaceSize": 450,
+		"surfaceGravity": 7
+	},
+	"Orbit": {
+		"primaryBody": "Jam 3 Sun",
+		"semiMajorAxis": 10000,
+		"showOrbitLine": false
+	},
+	"Atmosphere": {
+		//"clouds": {
+		//	"capPath": "planets/assets/HearthCap.png",
+		//	"rampPath": "planets/assets/HearthRamp.png",
+		//	"texturePath": "planets/assets/HearthTexture",
+		//	"cloudsPrefab": "quantumMoon",
+		//	"tint": {
+		//		"r": 255,
+		//		"g": 255,
+		//		"b": 255,
+		//		"a": 1
+		//	},
+		//	"rotationSpeed": 10,
+		//	"outerCloudRadius": 500,
+		//	"innerCloudRadius": 445,
+		//	"hasLightning": true
+		//},
+		"atmosphereSunIntensity": 0.7,
+		"atmosphereTint": {
+			"r": 219,
+			"g": 212,
+			"b": 186,
+			"a": 255
+		},
+		"fogTint": {
+			"r": 219,
+			"g": 212,
+			"b": 186,
+			"a": 0
+		},
+		"fogDensity": 3,
+		"fogSize": 570,
+		"hasRain": false
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "TimberHearth_Body/Sector_TH",
+				//"assetBundle": "planets/assets/jam3",
+				//"path": "Assets/AltTimberHearth_Body.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"rotation": {},
+				"keepLoaded": false
+			},
+			{
+				"assetBundle": "planets/assets/jam3",
+				"path": "Assets/BathhouseAndMore.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"rotation": {},
+				"keepLoaded": false
+			},
+			{
+				"assetBundle": "planets/assets/jam3",
+				"path": "Assets/Clouds_GD.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"rotation": {},
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/assets/jam3",
+				"path": "Assets/LightningGenerator_GD.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"rotation": {},
+				"keepLoaded": false,
+				"deactivationCondition": "VEIL_LIFTED"
+			},
+			{
+				"assetBundle": "planets/assets/jam3",
+				"path": "Assets/cistern2.prefab",
+				"position": {
+					"x": -68.8403,
+					"y": 79.92706,
+					"z": -157.5916
+				},
+				"rotation": {
+					"x": 51.22,
+					"y": 178.307,
+					"z": -9.281
+				},
+				"keepLoaded": false
+			},
+			{
+				"assetBundle": "planets/assets/jam3",
+				"path": "Assets/BoardsAndMore.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			},
+			{
+				"assetBundle": "planets/assets/jam3",
+				"path": "Assets/Nomai Ruins/Prefabs/Bramble/Vine_5.prefab",
+				"position": {
+					"x": -70.6,
+					"y": 227.18,
+					"z": -9
+				},
+				"rotation": {
+					"x": 18.043,
+					"y": -170,
+					"z": 0
+				},
+				"deactivationCondition": "DEFAULT",
+				"activationCondition": "VEIL_LIFTED",
+				"blinkWhenActiveChanged": true,
+				"keepLoaded": false
+			},
+			{
+				"assetBundle": "planets/assets/jam3",
+				"path": "Assets/Nomai Ruins/Prefabs/Bramble/Flower.prefab",
+				"position": {"x": -42.1496, "y": 77.9944, "z": -117.1109},    
+				"rotation": {"x": 349.371, "y": 36.8948, "z": 244.2339},   
+				"scale": 0.8579,
+				"item": {
+					"clearPickupConditionOnDrop": true,
+					"name": "Bramble Bloom",
+					"colliderRadius": 0,
+					"interactRange": 2,
+					"pickupAudio": "planets/assets/Anglerfish_Awake4.wav",
+					"dropAudio": "planets/assets/Vine_Crash_V3_01_LowPassDelay.ogg",
+					"droppable": true,
+					"dropNormal": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"dropOffset": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"pickupCondition": "VEIL_LIFTED"
+				}
+			},
+			{
+				"assetBundle": "planets/assets/jam3",
+				"path": "Assets/Nomai Ruins/Prefabs/Bramble/Flower.prefab",
+				"position": {"x": 5, "y": 0, "z": 0},    
+				"rotation": {"x": 0, "y": 0, "z": 0},   
+				"scale": 0.8579,
+				"item": {
+					"clearPickupConditionOnDrop": true,
+					"name": "Bramble Bloom",
+					"colliderRadius": 0,
+					"interactRange": 2,
+					"pickupAudio": "planets/assets/Anglerfish_Awake4.wav",
+					"dropAudio": "planets/assets/Vine_Crash_V3_01_LowPassDelay.ogg",
+					"droppable": true,
+					"dropNormal": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"dropOffset": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"pickupCondition": "VEIL_LIFTED"
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Villager_HEA_Galena", //Galena
+				"removeChildren": ["ConversationZone", "CowerAnimTrigger"],
+				"position": {"x": 0, "y": 0, "z": 0},
+				"rotation": {"x": 0, "y": 0, "z": 0},
+				"rename": "The Spokesperson"
+			}
+		],
+		"dialogue": [
+			{
+				"pathToAnimController": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Villager_HEA_Galena/Villager_HEA_Galena_ANIM_Idle",
+				"xmlFile": "planets/text/Spokesperson.xml",
+				"range": 2
+			}
+		]
+	},
+	"ReferenceFrame": {
+		"bracketRadius": 1000,
+		"hideInMap": true,
+		"enabled": true
+	},
+	"ParticleFields": [
+		{
+			"type": "pollen",
+			"followTarget": "player"
+		}
+	],
+	"Volumes": {
+			"notificationVolumes":[
+				{
+					"radius": 400,
+					"entryNotification": {
+						"displayMessage": "UNIDENTIFIED ORGANIC PARTICULATE DETECTED IN ATMOSPHERE"
+					},
+					"position": {"x": 0, "y": 0, "z": 0},
+					"target": "all"
+				},
+				{
+					"radius": 410,
+					"exitNotification": {
+						"displayMessage": "NOTICE: LEVELS OF PARTICULATE IN SUIT DROPPING"
+					},
+					"position": {"x": 0, "y": 0, "z": 0},
+					"target": "player"
+				},
+				{
+					"radius": 410,
+					"exitNotification": {
+						"displayMessage": "NOTICE: LEVELS OF PARTICULATE IN CABIN DROPPING"
+					},
+					"position": {"x": 0, "y": 0, "z": 0},
+					"target": "ship"
+				}
+			]
+		}
+}

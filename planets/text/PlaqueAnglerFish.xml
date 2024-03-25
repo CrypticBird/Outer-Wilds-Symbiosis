@@ -1,0 +1,12 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/ship-log/NewHorizons/dialogue_schema.xsd">
+	<NameField>SIGN</NameField>
+
+	<DialogueNode>
+		<Name>Start</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey, it's me, Ernesto the magic talking anglerfish.</Page>
+			<Page>Nah, just kidding. I'm not actually talking to you right now. This is just a piece of paper you're reading.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

@@ -1,0 +1,76 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/ship-log/NewHorizons/dialogue_schema.xsd">
+	<NameField>Bird</NameField>
+
+	<DialogueNode>
+		<Name>Start</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey, thanks for playing this demo. I made it to gather feedback on the gravity pedestals, which will be featured in Extinction.</Page>
+			<Page>So, give me your input via the Outer Wilds Modding discord server!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Okay, I will do that.</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Of course, I love you.</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>No, I HATE you!</Text>
+				<DialogueTarget>9999</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Gorp!</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>Thanks for keeping it real, fr fr no cap ong</Page>
+			<Page>I will see you once more, when Extinction is done.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>Zarp!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Yarp.</Text>
+				<DialogueTarget>2A</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Narp.</Text>
+				<DialogueTarget>2B</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>:HearthianFlushed: emoji!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2A</Name>
+		<Dialogue>
+			<Page>:D</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2B</Name>
+		<Dialogue>
+			<Page>:(</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

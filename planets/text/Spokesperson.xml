@@ -1,0 +1,116 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/ship-log/NewHorizons/dialogue_schema.xsd">
+	<NameField>The Spokesperson</NameField>
+
+	<DialogueNode>
+		<Name>Start</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>...</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Galena?</Text>
+				<DialogueTarget>A1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Where is everyone?</Text>
+				<DialogueTarget>B1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>A1</Name>
+		<Dialogue>
+			<Page>I am not they. I am a spokesperson of sorts. You may know me as this.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Very funny, Galena.</Text>
+				<DialogueTarget>Z1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>A spokesperson? For whom?</Text>
+				<DialogueTarget>A2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Where is everyone?</Text>
+				<DialogueTarget>B1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Okay, that's freaky... Bye!</Text>
+				<DialogueTarget>A2c</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Z1</Name>
+		<Dialogue>
+			<Page>I do not jest, and I am not Galena; I am simply a spokesperson.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>A spokesperson? For whom?</Text>
+				<DialogueTarget>A2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Where is everyone?</Text>
+				<DialogueTarget>B1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>That's even freakier... I'm outta here.</Text>
+				<DialogueTarget>A2c</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>A2</Name>
+		<Dialogue>
+			<Page>In time, you will learn this. For now, direct your curiousity beyond me.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Where is everyone?</Text>
+				<DialogueTarget>B1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Okay, that's nice... Bye!</Text>
+				<DialogueTarget>A2c</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>B1</Name>
+		<Dialogue>
+			<Page>You will find the answer to this elsewhere. I cannot spoil things.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Just tell me!</Text>
+				<DialogueTarget>C1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Okay, that's dumb... Bye!</Text>
+				<DialogueTarget>A2c</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>C1</Name>
+		<Dialogue>
+			<Page>No. You clearly have yet to learn the lay of this land. Remedy this and we may converse further.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>A2c</Name>
+		<Dialogue>
+			<Page>...</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

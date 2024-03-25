@@ -1,0 +1,9 @@
+{
+  "filename": "NewHorizonsConfig.dll",
+  "author": "CrypticBird",
+  "name": "Symbiosis",
+  "uniqueName": "CrypticBird.Jam3",
+  "version": "0.0.1",
+  "owmlVersion": "2.7.0",
+  "dependencies": [ "xen.NewHorizons", "xen.ModJam3" ]
+}

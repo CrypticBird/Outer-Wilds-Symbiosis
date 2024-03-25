@@ -1,0 +1,12 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/ship-log/NewHorizons/dialogue_schema.xsd">
+	<NameField>SIGN</NameField>
+
+	<DialogueNode>
+		<Name>Start</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>I learned in adolescence the fate of male anglerfish during reproduction.</Page>
+			<Page>It was quite the traumatizing thing to learn (in one blow, it also taught me the fate of my father) — through this, I realized I bore no romantic feelings for my own species.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

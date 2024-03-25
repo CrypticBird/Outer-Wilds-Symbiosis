@@ -1,0 +1,13 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/ship-log/NewHorizons/dialogue_schema.xsd">
+	<NameField>SIGN</NameField>
+
+	<DialogueNode>
+		<Name>Start</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Watch closely... these balls are entirely stationary!</Page>
+			<Page>That's because moons are illegal in this part of the galaxy.</Page>
+			<Page>CORRECTION: moons have just been legalized. However, the budget was created with their illegality in mind, so we cannot afford one at this point.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>
