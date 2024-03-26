@@ -67,7 +67,6 @@
 		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/NomaiStatueExhibit",
 		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/GravityBallExhibit",
 		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/MapSatelliteExhibit",
-		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/AnglerFishExhibit/InteractVolume",
 		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Geometry_Observatory/Structure_HEA_Observatory_v3/ObservatoryPivot/Observatory_Interior/Interior_Exhibits/Exhibits_Pictures/Props_HEA_Picture_04",
 		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Geometry_Observatory/Structure_HEA_Observatory_v3/ObservatoryPivot/Observatory_Interior/Interior_Exhibits/Exhibits_Pictures/Props_HEA_Picture_05",
 		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/GravityFieldExhibit",
@@ -77,13 +76,23 @@
 		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root",
 		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/NomaiEyeExhibit",
 		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/EntrywayExhibit/Prefab_HEA_Journal",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/AnglerFishExhibit/InteractVolume",
 		"Sector/Sector_TH/Sector_Village/Interactables_Village/TutorialCamera_Base",
 		"Sector/Sector_TH/Sector_Village/Interactables_Village/Interactables_ScoutTutorial",
-		"Sector/Sector_TH/Sector_Village/Interactables_Village/SatelliteProjectorExhibit"
+		"Sector/Sector_TH/Sector_Village/Interactables_Village/SatelliteProjectorExhibit",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/NomaiResearchExhibit/Prefab_NOM_Treepot",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/NomaiResearchExhibit/Clutter_NOM_Pottery",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/NomaiResearchExhibit/Props_HEA_Probe_STATIC",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Geometry_Observatory/Structure_HEA_Observatory_v3/ObservatoryPivot/Observatory_Interior/Interior_Exhibits/Exhibits_Nomai/Props_NOM_WarpCore_Geo",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Lighting_Observatory/Exhibits/PointLight_HEA_GravityCrystalExhibit",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/NomaiResearchExhibit/InteractVolume",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/NomaiResearchExhibit/InteractVolume",
+		"Sector/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/NomaiResearchExhibit/InteractVolume"
 	],
 	"Base": {
 		"surfaceSize": 450,
-		"surfaceGravity": 7
+		"surfaceGravity": 10,
+		"invulnerableToSun": true
 	},
 	"Orbit": {
 		"primaryBody": "Jam 3 Sun",
@@ -125,6 +134,96 @@
 		"hasRain": false
 	},
 	"Props": {
+		"quantumGroups": [
+			{
+				"id": "socketsRed",
+				"type": "sockets",
+				"sockets": [
+					{
+						"position": {"x": -27.07239, "y": -201.1132, "z": 12.96089},
+						"rotation": {"x": -3.459, "y": -0.143, "z": 352.079}
+					},
+					{
+						"position": {"x": -36.34637, "y": -200.1798, "z": 6.957222},
+						"rotation": {"x": -3.459, "y": -0.143, "z": 352.079}
+					},
+					{
+						"position": {"x": -28.40518, "y": -202.0557, "z": -5.818993},
+						"rotation": {"x": -3.459, "y": -0.143, "z": 352.079}
+					},
+					{
+						"position": {"x": -28.36742, "y": -202.3696, "z": -10.95618},
+						"rotation": {"x": -3.459, "y": -0.143, "z": 352.079}
+					}
+				]
+			},
+			{
+				"id": "socketsGreen",
+				"type": "sockets",
+				"sockets": [
+					{
+						"position": {"x": -31.7006, "y": -201.0437, "z": 3.369316},
+						"rotation": {"x": -3.459, "y": -0.143, "z": 352.079}
+					},
+					{
+						"position": {"x": -31.69536, "y": -201.4142, "z": -2.784447},
+						"rotation": {"x": -3.459, "y": -0.143, "z": 352.079}
+					},
+					{
+						"position": {"x": -31.7249, "y": -200.5601, "z": 11.36151},
+						"rotation": {"x": -3.459, "y": -0.143, "z": 352.079}
+					},
+					{
+						"position": {"x": -31.6352, "y": -202.0771, "z": -13.67609},
+						"rotation": {"x": -3.459, "y": -0.143, "z": 352.079}
+					}
+				]
+			},
+			{
+				"id": "socketsPink",
+				"type": "sockets",
+				"sockets": [
+					{
+						"position": {"x": -36.71065, "y": -201.0249, "z": -7.952179},
+						"rotation": {"x": -3.459, "y": -0.143, "z": 352.079}
+					},
+					{
+						"position": {"x": -23.65681, "y": -202.8776, "z": -8.471428},
+						"rotation": {"x": -3.459, "y": -0.143, "z": 352.079}
+					},
+					{
+						"position": {"x": -25.95448, "y": -201.9278, "z": 2.00045},
+						"rotation": {"x": -3.459, "y": -0.143, "z": 352.079}
+					},
+					{
+						"position": {"x": -31.61778, "y": -202.2982, "z": -17.31628},
+						"rotation": {"x": -3.459, "y": -0.143, "z": 352.079}
+					}
+				]
+			},
+			{
+				"id": "socketsBlue",
+				"type": "sockets",
+				"sockets": [
+					{
+						"position": {"x": -24.67712, "y": -201.8934, "z": 5.538765},
+						"rotation": {"x": -3.459, "y": -0.143, "z": 352.079}
+					},
+					{
+						"position": {"x": -36.09088, "y": -200.6248, "z": 0.14534},
+						"rotation": {"x": -3.459, "y": -0.143, "z": 352.079}
+					},
+					{
+						"position": {"x": -37.39954, "y": -199.7917, "z": 10.97097},
+						"rotation": {"x": -3.459, "y": -0.143, "z": 352.079}
+					},
+					{
+						"position": {"x": -24.582, "y": -203.12, "z": -14.65299},
+						"rotation": {"x": -3.459, "y": -0.143, "z": 352.079}
+					}
+				]
+			}
+		],
 		"details": [
 			{
 				"path": "TimberHearth_Body/Sector_TH",
@@ -137,6 +236,26 @@
 				},
 				"rotation": {},
 				"keepLoaded": false
+			},
+			{
+				"assetBundle": "planets/assets/jam3",
+				"path": "Assets/Nomai Ruins/Prefabs/Hearthian/HearthianPlaqueRedFr.prefab",
+				"quantumGroupID": "socketsRed"
+			},
+			{
+				"assetBundle": "planets/assets/jam3",
+				"path": "Assets/Nomai Ruins/Prefabs/Hearthian/HearthianPlaqueGreen.prefab",
+				"quantumGroupID": "socketsGreen"
+			},
+			{
+				"assetBundle": "planets/assets/jam3",
+				"path": "Assets/Nomai Ruins/Prefabs/Hearthian/HearthianPlaque.prefab",
+				"quantumGroupID": "socketsPink"
+			},
+			{
+				"assetBundle": "planets/assets/jam3",
+				"path": "Assets/Nomai Ruins/Prefabs/Hearthian/HearthianPlaqueBlue.prefab",
+				"quantumGroupID": "socketsBlue"
 			},
 			{
 				"assetBundle": "planets/assets/jam3",
@@ -170,7 +289,8 @@
 				},
 				"rotation": {},
 				"keepLoaded": false,
-				"deactivationCondition": "VEIL_LIFTED"
+				"deactivationCondition": "VEIL_LIFTED",
+				"activationCondition": "DEFAULT"
 			},
 			{
 				"assetBundle": "planets/assets/jam3",
@@ -198,15 +318,15 @@
 			},
 			{
 				"assetBundle": "planets/assets/jam3",
-				"path": "Assets/Nomai Ruins/Prefabs/Bramble/Vine_5.prefab",
+				"path": "Assets/NoVeilItems.prefab",
 				"position": {
-					"x": -70.6,
-					"y": 227.18,
-					"z": -9
+					"x": 0,
+					"y": 0,
+					"z": 0
 				},
 				"rotation": {
-					"x": 18.043,
-					"y": -170,
+					"x": 0,
+					"y": 0,
 					"z": 0
 				},
 				"deactivationCondition": "DEFAULT",
@@ -214,16 +334,84 @@
 				"blinkWhenActiveChanged": true,
 				"keepLoaded": false
 			},
+			//{
+			//	"path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body",
+			//	"position": {
+			//		"x": -193.8,
+			//		"y": 2.7,
+			//		"z": -286.3
+			//	},
+			//	"rotation": {"x": 180.573,
+			//	"y": 140.47,
+			//	"z": -95.93298},
+			//	"scale": 0.5,
+			//	"removeChildren": [
+			//		"Beast_Anglerfish/B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end/Lure_FogGlow",
+			//		"Beast_Anglerfish/B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end/Lure_FogLight"
+			//	],
+			//	"deactivationCondition": "DEFAULT",
+			//	"activationCondition": "VEIL_LIFTED",
+			//	"blinkWhenActiveChanged": true,
+			//	"keepLoaded": true
+			//},
+			//{
+			//	"path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body",
+			//	"position": {
+			//		"x": -40.5,
+			//		"y": -0.3,
+			//		"z": 284
+			///	},
+			//	"rotation": {"x": 209.021,
+			//	"y": -49,
+			//	"z": 243.884},
+			//	"scale": 0.6,
+			//	"removeChildren": [
+			//		"Beast_Anglerfish/B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end/Lure_FogGlow",
+			//		"Beast_Anglerfish/B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end/Lure_FogLight"
+			//	],
+			//	"deactivationCondition": "DEFAULT",
+			//	"activationCondition": "VEIL_LIFTED",
+			//	"blinkWhenActiveChanged": true,
+			//	"keepLoaded": true
+			//},
+			//{
+			//	"path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body",
+			//	"position": {
+			//		"x": 46.73,
+			//		"y": 39,
+			//		"z": 80.02
+			//	},
+			//	"rotation": {"x": 391.538,
+			//	"y": -105.68,
+			//	"z": 257.513},
+			//	"scale": 0.07,
+			//	"removeChildren": [
+			//		"Beast_Anglerfish/B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end/Lure_FogGlow",
+			//		"Beast_Anglerfish/B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end/Lure_FogLight"
+			//	],
+			//	"deactivationCondition": "DEFAULT",
+			//	"activationCondition": "VEIL_LIFTED",
+			//	"blinkWhenActiveChanged": true,
+			//	"keepLoaded": true
+			//},
 			{
 				"assetBundle": "planets/assets/jam3",
 				"path": "Assets/Nomai Ruins/Prefabs/Bramble/Flower.prefab",
-				"position": {"x": -42.1496, "y": 77.9944, "z": -117.1109},    
-				"rotation": {"x": 349.371, "y": 36.8948, "z": 244.2339},   
+				"position": {
+					"x": -42.3023,
+					"y": 77.9435,
+					"z": -116.8709
+				},
+				"rotation": {
+					"x": 349.371,
+					"y": 36.8948,
+					"z": 244.2339
+				},
 				"scale": 0.8579,
 				"item": {
 					"clearPickupConditionOnDrop": true,
 					"name": "Bramble Bloom",
-					"colliderRadius": 0,
+					"colliderRadius": 0.1,
 					"interactRange": 2,
 					"pickupAudio": "planets/assets/Anglerfish_Awake4.wav",
 					"dropAudio": "planets/assets/Vine_Crash_V3_01_LowPassDelay.ogg",
@@ -241,38 +429,23 @@
 					"pickupCondition": "VEIL_LIFTED"
 				}
 			},
-			{
-				"assetBundle": "planets/assets/jam3",
-				"path": "Assets/Nomai Ruins/Prefabs/Bramble/Flower.prefab",
-				"position": {"x": 5, "y": 0, "z": 0},    
-				"rotation": {"x": 0, "y": 0, "z": 0},   
-				"scale": 0.8579,
-				"item": {
-					"clearPickupConditionOnDrop": true,
-					"name": "Bramble Bloom",
-					"colliderRadius": 0,
-					"interactRange": 2,
-					"pickupAudio": "planets/assets/Anglerfish_Awake4.wav",
-					"dropAudio": "planets/assets/Vine_Crash_V3_01_LowPassDelay.ogg",
-					"droppable": true,
-					"dropNormal": {
-						"x": 0,
-						"y": 0,
-						"z": 0
-					},
-					"dropOffset": {
-						"x": 0,
-						"y": 0,
-						"z": 0
-					},
-					"pickupCondition": "VEIL_LIFTED"
-				}
-			},
+			
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Villager_HEA_Galena", //Galena
-				"removeChildren": ["ConversationZone", "CowerAnimTrigger"],
-				"position": {"x": 0, "y": 0, "z": 0},
-				"rotation": {"x": 0, "y": 0, "z": 0},
+				"removeChildren": [
+					"ConversationZone",
+					"CowerAnimTrigger"
+				],
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
 				"rename": "The Spokesperson"
 			}
 		],
@@ -280,7 +453,89 @@
 			{
 				"pathToAnimController": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Villager_HEA_Galena/Villager_HEA_Galena_ANIM_Idle",
 				"xmlFile": "planets/text/Spokesperson.xml",
-				"range": 2
+				"range": 2,
+				"position": {}
+			},
+			{
+				"xmlFile": "planets/text/PlaqueAnglerSkeleton.xml",
+				"range": 3,
+				"position": {
+					"x": -75.22295,
+					"y": 14.67523,
+					"z": 214.0629
+				}
+			},
+			{
+				"xmlFile": "planets/text/PlaqueBallz.xml",
+				"range": 2,
+				"position": {
+					"x": -63.08702,
+					"y": 2.209645,
+					"z": 217.5473
+				}
+			},
+			{
+				"xmlFile": "planets/text/PlaqueGravity.xml",
+				"range": 2,
+				"position": {
+					"x": -43.48052,
+					"y": 1.972699,
+					"z": 222.286
+				}
+			},
+			{
+				"xmlFile": "planets/text/PlaqueGravity.xml",
+				"range": 2,
+				"position": {
+					"x": -46.1153,
+					"y": -6.842754,
+					"z": 221.6353
+				}
+			},
+			{
+				"xmlFile": "planets/text/PlaqueAnglerFish.xml",
+				"range": 3,
+				"position": {
+					"x": -51.714,
+					"y": -5.146,
+					"z": 221.007
+				}
+			},
+			{
+				"xmlFile": "planets/text/PlaqueLifeStory3.xml",
+				"range": 3,
+				"position": {
+					"x": -74.29,
+					"y": -18.409,
+					"z": 211.833
+				}
+			},
+			{
+				"xmlFile": "planets/text/PlaqueLifeStory2.xml",
+				"range": 3,
+				"position": {
+					"x": -80.51,
+					"y": -19.48,
+					"z": 209.6
+				}
+			},
+			{
+				"xmlFile": "planets/text/PlaqueLifeStory1.xml",
+				"range": 3,
+				"position": {
+					"x": -78.31819,
+					"y": -12.83494,
+					"z": 211.008
+				}
+			},
+			{
+				"xmlFile": "planets/text/PlaqueNomaiSkeleton.xml",
+				"range": 2,
+				"position": {
+					"x": -50.12986,
+					"y": 12.54816,
+					"z": 220.4212
+				}
 			}
 		]
 	},
@@ -296,31 +551,43 @@
 		}
 	],
 	"Volumes": {
-			"notificationVolumes":[
-				{
-					"radius": 400,
-					"entryNotification": {
-						"displayMessage": "UNIDENTIFIED ORGANIC PARTICULATE DETECTED IN ATMOSPHERE"
-					},
-					"position": {"x": 0, "y": 0, "z": 0},
-					"target": "all"
+		"notificationVolumes": [
+			{
+				"radius": 400,
+				"entryNotification": {
+					"displayMessage": "UNIDENTIFIED ORGANIC PARTICULATE DETECTED IN ATMOSPHERE"
 				},
-				{
-					"radius": 410,
-					"exitNotification": {
-						"displayMessage": "NOTICE: LEVELS OF PARTICULATE IN SUIT DROPPING"
-					},
-					"position": {"x": 0, "y": 0, "z": 0},
-					"target": "player"
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
 				},
-				{
-					"radius": 410,
-					"exitNotification": {
-						"displayMessage": "NOTICE: LEVELS OF PARTICULATE IN CABIN DROPPING"
-					},
-					"position": {"x": 0, "y": 0, "z": 0},
-					"target": "ship"
-				}
-			]
-		}
+				"target": "all"
+			},
+			{
+				"radius": 410,
+				"exitNotification": {
+					"displayMessage": "NOTICE: LEVELS OF PARTICULATE IN SUIT DROPPING"
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"target": "player"
+			},
+			{
+				"radius": 410,
+				"exitNotification": {
+					"displayMessage": "NOTICE: LEVELS OF PARTICULATE IN CABIN DROPPING"
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"target": "ship"
+			}
+		]
+	}
 }
