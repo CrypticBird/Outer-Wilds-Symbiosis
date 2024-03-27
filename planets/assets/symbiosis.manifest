@@ -1,0 +1,208 @@
+ManifestFileVersion: 0
+CRC: 3637093826
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fcc243071102f1055d381e4b4bcfb4fb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ec74e9037114e2c49e1c95e612173e63
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3e2cd530bcd6ab93471c4405ca1c5b6a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b3891590690609c69465a648b6c178e6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dab2fbc1d63988697a57c20e75208116, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 80818142ed7b755f9ecef4a391e63964, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5949ee929a0f4342e2cff9fa5a0f9127, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3bfd83f28489a24bc69cb526ff54d468, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d5826623d0fd327d936eaa3fa34ec891, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b446aa63b809cb3da1921800cd416866, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b409018305dd6f6cfaa650800ebec19a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: eecfc1b39ba9e0000e410dc9ec32a8ec, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d3e77ae3309b6f323de07b456da83fb0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 567b10f3592a22d2bef7141ba8f84acb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 228a84d6d8ef45fc53f14e8bfe431430, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 97799c07190331b5ea4838ff8ff2a8e0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 53fe1f971c08db1945e16add52db7b68, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 37aeb9a742f98df8b486a716a5b568a6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ef4a7208df34bcc45029964389471a68, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8ea510482944075a62ce706d68a40947, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5b895e78b496f0b8d3aa4cd1fbe3ef9e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b8880e8825af4fcbf1dab71021f8c869, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 892a6b987a18588fe03a5937388e4a4d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0053d129d589d30957bcc3b1958fc878, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25b7e56961bf1df33ed31b8c786ab1c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 651bf6a97f095be1000b67022b3d85c7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7272cba977bdf7eec3ebf07ae09efe55, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a7a309b9166e80c299d132c6b876e28c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7b80504a0aa9946ddb29be5e95e7256c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6b881cca0a4f51aa22e82eb3e1338126, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1f3014da1c89ce2573a27c371d8ccd9f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3764d89beefddfb963f973f9a1e29bad, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0257b8fb5e4f8121bfccf8461102f947, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7aba6c2ce49844631cfc871c69533e25, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3cb5a34c0b2b4edb1b44fafe70d79e7b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9893321d896ff975d056df09969d1ee0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7731bc3d30c8b009ac33fba6df6e72ae, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bda4e78dbfc9198a165897d3deca78b8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1effb1bd669ff10873e29e11509c3d77, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4b51a09e4110b49d3654000985deafc3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1baab1be2365418212ecfb0e7844d02e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7706556f6dc808b8b02646686eaf6aca, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5b69738f164a5a2451d76a672bae5943, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1ff8988f7de275713f88e3eab04ecc18, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 134
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Nomai Ruins/Resources/Materials/Terrain_TH_CraterCliffs_d.png
+- Assets/Scenes/TimberHearth/StreamingBatchedRenderers/Renderer_Geometry_NomaiMines_0.asset
+- Assets/Beast_Anglerfish_e.png
+- Assets/Nomai Ruins/Prefabs/Bramble/Flower.prefab
+- Assets/Nomai Ruins/Prefabs/Bramble/Pure Seed.prefab
+- Assets/BathhouseAndMore.prefab
+- Assets/Nomai Ruins/Prefabs/Bramble/Vine_LR.prefab
+- Assets/Renderer_Geometry_NomaiMines_3.asset
+- Assets/Nomai Ruins/Prefabs/Hearthian/HearthianPlaque.prefab
+- Assets/Nomai Ruins/Prefabs/Bramble/Vine_RRL.prefab
+- Assets/Nomai Ruins/Prefabs/Hearthian/HearthianPlaqueGreen.prefab
+- Assets/Nomai Ruins/Prefabs/Bramble/HollowVine2.prefab
+- Assets/Nomai Ruins/Prefabs/Hearthian/HearthianPlaqueYellow.prefab
+- Assets/Nomai Ruins/Prefabs/Bramble/Flower 1.prefab
+- Assets/NoVeilItems.prefab
+- Assets/Nomai Ruins/Prefabs/Bramble/Vine_RR.prefab
+- Assets/Nomai Ruins/Prefabs/Bramble/PureVine_RRL.prefab
+- Assets/Nomai Ruins/Prefabs/Bramble/Vine_5.prefab
+- Assets/Nomai Ruins/Prefabs/Bramble/Terrain_DB_VineBlend_v2.prefab
+- Assets/Beast_Anglerfish_n.png
+- Assets/Nomai Ruins/Prefabs/Bramble/Vine_3.prefab
+- Assets/Nomai Ruins/Prefabs/Bramble/ThornA.prefab
+- Assets/Nomai Ruins/Prefabs/Bramble/Vine_4.prefab
+- Assets/End Dimension Prop.prefab
+- Assets/Scenes/TimberHearth/StreamingBatchedRenderers/Renderer_Geometry_NomaiMines_2.asset
+- Assets/Beast_Anglerfish_s.png
+- Assets/Beast_Anglerfish_d.png
+- Assets/Nomai Ruins/Prefabs/Bramble/Thorn.prefab
+- Assets/Nomai Ruins/Prefabs/Bramble/Vine_2.prefab
+- Assets/Nomai Ruins/Prefabs/Bramble/SpiralVines.prefab
+- Assets/MinesStone2.prefab
+- Assets/Nomai Ruins/Prefabs/Bramble/HollowVine1.prefab
+- Assets/Terrain_DB_AnglerfishSkeleton_e.png
+- Assets/Nomai Ruins/Prefabs/Hearthian/Platform A.prefab
+- Assets/Nomai Ruins/Prefabs/Hearthian/HearthianPlaqueRed.prefab
+- Assets/Nomai Ruins/Prefabs/Hearthian/HearthianPlaqueRedFr.prefab
+- Assets/Beast_Anglerfish_AO.png
+- Assets/Nomai Ruins/Prefabs/Bramble/Vine_RL.prefab
+- Assets/Terrain_CT_AnglerfishSkeleton_d.png
+- Assets/cistern2.prefab
+- Assets/Clouds_GD.prefab
+- Assets/Nomai Ruins/Prefabs/Bramble/Vine_Cluster.prefab
+- Assets/MinesStone1.prefab
+- Assets/door_fancy_giant.asset
+- Assets/Nomai Ruins/Prefabs/Bramble/Vine_1.prefab
+- Assets/VeilItems.prefab
+- Assets/Nomai Ruins/Prefabs/Hearthian/HearthianPlaqueBlue.prefab
+- Assets/LightningGenerator_GD.prefab
+- Assets/Nomai Ruins/Prefabs/Bramble/Vine_L.prefab
+- Assets/MinesStone0.prefab
+- Assets/BoardsAndMore.prefab
+- Assets/Nomai Ruins/Prefabs/Bramble/ThornB.prefab
+- Assets/Nomai Ruins/Prefabs/Bramble/Vine_LLR.prefab
+- Assets/Scenes/TimberHearth/StreamingBatchedRenderers/Renderer_Geometry_NomaiMines_1.asset
+- Assets/Nomai Ruins/Prefabs/Bramble/Vine_R.prefab
+- Assets/Nomai Ruins/Prefabs/Bramble/Vine_LLL.prefab
+Dependencies: []

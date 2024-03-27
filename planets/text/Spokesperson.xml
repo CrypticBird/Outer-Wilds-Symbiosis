@@ -86,11 +86,11 @@
 	<DialogueNode>
 		<Name>B1</Name>
 		<Dialogue>
-			<Page>You will find the answer to this elsewhere. I cannot spoil things.</Page>
+			<Page>You will find the answer to this elsewhere. Perhaps visit our largest geyser.</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>Just tell me!</Text>
+				<Text>Just tell me here!</Text>
 				<DialogueTarget>C1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
@@ -111,6 +111,15 @@
 		<Name>A2c</Name>
 		<Dialogue>
 			<Page>...</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Second</Name>
+		<EntryCondition>VEIL_LIFTED</EntryCondition>
+		<Dialogue>
+			<Page>So you've found it. Now you may see things as I've made them.</Page>
+			<Page>Isn't it beautiful? Another creation of mine rests under this village. Visit him for direction; I do not think he will bite.</Page>
 		</Dialogue>
 	</DialogueNode>
 </DialogueTree>

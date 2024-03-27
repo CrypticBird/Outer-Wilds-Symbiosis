@@ -1,0 +1,103 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/ship-log/NewHorizons/dialogue_schema.xsd">
+	<NameField>Ernesto the Curator</NameField>
+
+	<DialogueNode>
+		<Name>Start</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey, it's me, Ernesto the magic talking anglerfish.</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What happened to you, Ernesto?</Text>
+				<DialogueTarget>A</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What's that on your dangly-doo?</Text>
+				<DialogueTarget>B</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>A</Name>
+		<Dialogue>
+			<Page>I got very old. This is what happens to people when they get very old. Didn't you know that?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Yes, of course. This museum has been very enriching.</Text>
+				<DialogueTarget>M</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>No, I didn't. Can you tell me where everyone's gone?</Text>
+				<DialogueTarget>H</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Goodbye.</Text>
+				<DialogueTarget>L</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>M</Name>
+		<Dialogue>
+			<Page>I'm glad you're enjoying it. Be sure to check out my pieces of modern art along the south wall.</Page>
+			<Page>The one on the left is titled "Take the Jam money and run," while the one on the right is "Take the Jam money and run (1)."</Page>
+			<Page>They're subversive masterpieces, if I do say so myself.</Page>
+			<Page>Need anything else?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Yeah, could you tell me where everyone's gone?</Text>
+				<DialogueTarget>H</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>No, goodbye.</Text>
+				<DialogueTarget>L</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>B</Name>
+		<Dialogue>
+			<Page>It's a telescope. I evolved it when I took on the job of museum curator. Nowadays it's my only source of vision.</Page>
+			<Page>Anyway, you look a bit out of sorts... Do you need any help?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Yeah. Where did everyone go?</Text>
+				<DialogueTarget>H</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>No, I'm good. See ya!</Text>
+				<DialogueTarget>L</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>H</Name>
+		<Dialogue>
+			<Page>I ATE them all!</Page>
+			<Page>Nah, just kidding. Your guess is as good as mine, kid.</Page>
+			<Page>If you're searching for answers, though, I might start by heading to the Quantum Grove. It'll clue you in.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Thank you, Ernesto. I'll be going then.</Text>
+				<DialogueTarget>L</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>L</Name>
+		<Dialogue>
+			<Page>Bye bye.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

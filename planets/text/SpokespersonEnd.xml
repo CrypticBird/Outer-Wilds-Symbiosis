@@ -1,0 +1,17 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/ship-log/NewHorizons/dialogue_schema.xsd">
+	<NameField>The Spokesperson</NameField>
+
+	<DialogueNode>
+		<Name>Start</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Did you enjoy the yarn we spun?</Page>
+			<Page>We tailored it to you, to test if your kind endangered us.</Page>
+			<Page>Your kind is quite erratic — but, noting the tardiness in your arrival, ultimately feeble.</Page>
+			<Page>Our assessment wasn’t all dismal, though; your kind’s virtue lies in its communality — its warmth. This we must grant you.</Page>
+			<Page>Your dominant concern was for your missing friends. This was endearing.</Page>
+			<Page>Your kind has kindled themselves a hearth indeed! Though snuffed out young in this universe, we hope it imprints upon the next.</Page>
+			<Page>Go now: be with your friends.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

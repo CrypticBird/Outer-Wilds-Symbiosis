@@ -1,0 +1,76 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/dev/NewHorizons/Schemas/body_schema.json",
+	"name": "EndDimension",
+	"starSystem": "Jam3",
+	"Orbit": {
+	  "staticPosition": {
+		"x": 0,
+		"y": 50000,
+		"z": 0
+	  }
+	},
+	"Bramble": {
+	  "dimension": {
+		"fogTint": {
+		  "r": 113,
+		  "g": 107,
+		  "b": 81,
+		  "a": 255
+		},
+		"linksTo": "CoreNode",
+		"radius": 30,
+		"vinePrefab": "none"
+	  }
+	},
+	"Volumes": {
+		"creditsVolume": [
+			{
+				"deathType": "meditation",
+				"creditsType": "final",
+				"gameOverText": "You return to your community on Timber Hearth. They await you with open arms.",
+				"position": {},
+				"radius": 5.4
+			}
+		]
+	},
+	"Props": {
+		
+		"details": [
+			{
+				"assetBundle": "planets/assets/symbiosis",
+				"path": "Assets/End Dimension Prop.prefab"
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Villager_HEA_Galena", //Galena
+				"removeChildren": [
+					"ConversationZone",
+					"CowerAnimTrigger"
+				],
+				"position": {  
+					"x": -3.56,
+					"y": 4.3,
+					"z": -3.73
+				},
+				"rotation": {  
+					"x": 60.022,
+					"y": 241.114,
+					"z": 13.049
+				},
+				"rename": "The Spokesperson"
+			}
+			
+		],
+		"dialogue": [
+			{
+				"pathToAnimController": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Villager_HEA_Galena/Villager_HEA_Galena_ANIM_Idle",
+				"xmlFile": "planets/text/SpokespersonEnd.xml",
+				"range": 2,
+				"position": {  
+					"x": -3.56,
+					"y": 4.3,
+					"z": -3.73
+				}
+			}
+		]
+	}
+  }

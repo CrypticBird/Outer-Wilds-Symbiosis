@@ -1,0 +1,21 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/ship-log/NewHorizons/dialogue_schema.xsd">
+		<TextBlock>
+			<ID>1</ID>
+			<Text>SALVIA: From a brief analysis, we know these blooms to be a highly potent hallucinogenic.</Text>
+		</TextBlock>
+		<TextBlock>
+			<ID>2</ID>
+			<ParentID>1</ParentID>
+			<Text>FITTONIA: Indeed. They could theoretically deliver this toxin through physical contact.</Text>
+		</TextBlock>
+		<TextBlock>
+			<ID>3</ID>
+			<ParentID>2</ParentID>
+			<Text>SALVIA: Curiously, they also emit this toxin into the atmosphere in smaller amounts.</Text>
+		</TextBlock>
+		<TextBlock>
+			<ID>4</ID>
+			<ParentID>3</ParentID>
+			<Text>MUELLER: However, they clearly have no effect on us. Hypothesis: our kind's skin is not porous enough to be susceptible.</Text>
+		</TextBlock>
+</NomaiObject>
